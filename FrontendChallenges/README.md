@@ -77,6 +77,15 @@ Each challenge is intentionally small but conceptually strong.
 - `.map()` with keys
 - Empty-state handling
 
+
+### 🔹 Alert
+**Concepts practiced:**
+- Controlled inputs types
+- Props handle mechanism
+- Derived state
+- Dynamic UI updates
+- Auto dismiss after 3 seconds 
+
 ---
 
 ## 📁 Structure
