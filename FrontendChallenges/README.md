@@ -62,14 +62,6 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
-### 🔹 Character Counter
-**Concepts practiced:**
-- Controlled components
-- Real-time state updates
-- Side-effect awareness
-
----
-
 ### 🔹 Dynamic List Manager
 **Concepts practiced:**
 - Array state management
@@ -77,6 +69,7 @@ Each challenge is intentionally small but conceptually strong.
 - `.map()` with keys
 - Empty-state handling
 
+---
 
 ### 🔹 Alert
 **Concepts practiced:**
@@ -85,6 +78,14 @@ Each challenge is intentionally small but conceptually strong.
 - Derived state
 - Dynamic UI updates
 - Auto dismiss after 3 seconds 
+
+---
+
+### 🔹 Live Character Counter
+**Concepts practiced:**
+- Controlled components
+- Real-time state updates
+- Side-effect awareness
 
 ---
 
