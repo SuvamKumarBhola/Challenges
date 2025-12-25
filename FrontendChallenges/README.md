@@ -89,6 +89,17 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Multi Step Form
+**Concepts practiced:**
+- Controlled components
+- Smart Navigation
+- All fields validated before proceeding
+- Form submission
+- Responsive layout
+
+---
+
+
 ## 📁 Structure
 ```text
 FrontendChallenges/
