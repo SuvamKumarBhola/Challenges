@@ -1,7 +1,9 @@
 // import DynamicList from "./Components/Challenge1/DynamicList"
 // import Alert from "./Components/Challenge2/Alert"
 // import LiveChCounter from "./Components/Challenge3/LiveChCounter"
-import MultistepForm from "./Components/Challenge4/MultistepForm"
+// import MultistepForm from "./Components/Challenge4/MultistepForm"
+import ApiDataViewer from "./Components/Challenge5/ApiDataViewer"
+
 
 function App() {
 
@@ -17,7 +19,10 @@ function App() {
       {/* <LiveChCounter/> */}
 
       {/* Challenge_4 : Multi step form */}
-      <MultistepForm/>
+      {/* <MultistepForm/> */}
+
+      {/* Challenge_5 : ApiDataViewer */}
+      <ApiDataViewer/>
 
     </>
   )
