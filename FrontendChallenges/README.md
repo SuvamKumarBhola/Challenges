@@ -97,6 +97,15 @@ Each challenge is intentionally small but conceptually strong.
 - Form submission
 - Responsive layout
 
+--- 
+
+### 🔹 Multi Step Form
+**Concepts Practiced:**
+- Dynamically fetching data
+- Error handeling 
+- useEffect, useState and `.map()` with keys
+- Conditional rendering
+
 ---
 
 
