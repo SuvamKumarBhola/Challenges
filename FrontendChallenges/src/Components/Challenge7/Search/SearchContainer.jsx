@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import  {useState} from 'react'
 import DATA_LIST from '../data/Data'
 import SearchBar from './SearchBar'
 import ResultList from './ResultList'
 import useDebounce from '../hooks/useDebounce'
+import Search from 'lucide-react';
 
 function SearchContainer() {
     const [query, setQuery] = useState('');
@@ -16,7 +17,6 @@ function SearchContainer() {
         <div className="min-h-screen bg-slate-100 p-8">
             <div className="max-w-3xl mx-auto">
                 <div className="bg-white rounded-2xl shadow-xl p-8">
-                    {/* Header */}
                     <div className="flex items-center gap-3 mb-6">
                         <div className="p-2 bg-blue-100 rounded-lg">
                             <Search className="text-blue-600" size={28} />
@@ -27,14 +27,12 @@ function SearchContainer() {
                         </div>
                     </div>
 
-                    {/* Search Bar Component */}
                     <SearchBar
                         value={query}
                         onChange={setQuery}
                         debouncedValue={debouncedQuery}
                     />
 
-                    {/* Result List Component */}
                     <ResultList
                         items={filteredItems}
                         highlightTerm={debouncedQuery}
