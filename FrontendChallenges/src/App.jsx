@@ -2,7 +2,8 @@
 // import Alert from "./Components/Challenge2/Alert"
 // import LiveChCounter from "./Components/Challenge3/LiveChCounter"
 // import MultistepForm from "./Components/Challenge4/MultistepForm"
-import ApiDataViewer from "./Components/Challenge5/ApiDataViewer"
+// import ApiDataViewer from "./Components/Challenge5/ApiDataViewer"
+import LoginForm from "./Components/Challenge6/LoginForm"
 
 
 function App() {
@@ -22,7 +23,10 @@ function App() {
       {/* <MultistepForm/> */}
 
       {/* Challenge_5 : ApiDataViewer */}
-      <ApiDataViewer/>
+      {/* <ApiDataViewer/> */}
+
+      {/* Challenge_6 : LoginForm Validator */}
+      <LoginForm/>
 
     </>
   )
