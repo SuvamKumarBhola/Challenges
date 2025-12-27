@@ -108,6 +108,15 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Login Form Validator
+**Concepts practiced:**
+- Controlled inputs
+- Validation Logic
+- Form submission
+- Responsive layout
+
+---
+
 
 ## 📁 Structure
 ```text
