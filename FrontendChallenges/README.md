@@ -117,6 +117,14 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Modals
+**Concepts practiced:**
+- Controlled components
+- ReactDOM for Z-index overflow contradiction
+- Styled referenced elements
+
+---
+
 
 ## 📁 Structure
 ```text

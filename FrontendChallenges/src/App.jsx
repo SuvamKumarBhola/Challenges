@@ -34,10 +34,12 @@ function App() {
       {/* <SearchBar/> */}
 
       {/* Challenge_8 : Modal */}
-      <Modal isOpen={isOpen} onClose={()=> setIsOpen(false) }>
+      {/* <Modal isOpen={isOpen} onClose={()=> setIsOpen(false) }>
         <h2>I'm in Portal</h2>
         <p>Inspect Element on me, ={">"}&gt; direct child of the body tag</p>
-      </Modal>
+      </Modal> */}
+
+      
 
     </>
   )
