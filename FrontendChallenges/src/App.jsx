@@ -3,7 +3,9 @@
 // import LiveChCounter from "./Components/Challenge3/LiveChCounter"
 // import MultistepForm from "./Components/Challenge4/MultistepForm"
 // import ApiDataViewer from "./Components/Challenge5/ApiDataViewer"
-import LoginForm from "./Components/Challenge6/LoginForm"
+// import LoginForm from "./Components/Challenge6/LoginForm"
+import SearchBar from "./Components/Challenge7/SearchBar"
+import Modal from "./Components/Challenge8/Modal"
 
 
 function App() {
@@ -26,7 +28,16 @@ function App() {
       {/* <ApiDataViewer/> */}
 
       {/* Challenge_6 : LoginForm Validator */}
-      <LoginForm/>
+      {/* <LoginForm/> */}
+
+      {/* Challenge_7 : SearchBar */}
+      {/* <SearchBar/> */}
+
+      {/* Challenge_8 : Modal */}
+      <Modal isOpen={isOpen} onClose={()=> setIsOpen(false) }>
+        <h2>I'm in Portal</h2>
+        <p>Inspect Element on me, ={">"}&gt; direct child of the body tag</p>
+      </Modal>
 
     </>
   )
