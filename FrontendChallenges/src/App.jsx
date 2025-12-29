@@ -6,6 +6,7 @@
 // import LoginForm from "./Components/Challenge6/LoginForm"
 import SearchBar from "./Components/Challenge7/SearchBar"
 import Modal from "./Components/Challenge8/Modal"
+import SettingSection from "./Components/Challenge9/SettingSection"
 
 
 function App() {
@@ -40,7 +41,14 @@ function App() {
       </Modal> */}
 
       {/* Challenge_9 : Tabs */}
-      
+      <div className="tabs-container">
+        <header><h1>My DashBoards</h1></header>
+        <main>
+          <SettingSection />
+          <hr />
+          {/* <ProfileSection/> */}
+        </main>
+      </div>
 
     </>
   )
