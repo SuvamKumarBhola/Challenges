@@ -125,6 +125,15 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Tabs
+**Concepts practiced:**
+- Controlled components
+- ditional rendering
+- Props & composition
+- Event handling
+
+---
+
 
 ## 📁 Structure
 ```text
