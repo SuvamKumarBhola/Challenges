@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 function Tabs({ items, storageKey = 'active-tab-index' }) {
     const [activeTab, setActivetab] = useState(() => {
@@ -31,25 +31,30 @@ function Tabs({ items, storageKey = 'active-tab-index' }) {
     if (!items || items.length === 0) return null
 
     return (
-        <div className='tabs-container'>
-            <div className='tabs-list' role='tablist' ref={tabListRef}>
-                {items.map((items, index)=>(
+        <div className="w-full max-w-4xl mx-auto">
+            <div className="flex border-b border-gray-200" role="tablist" ref={tabListRef}>
+                {items.map((item, index) => (
                     <button
                         key={index}
-                        className={`tab-button ${index === activeTab ? 'active' : ''}`}
-                        onClick={handleTabClick(index)}
+                        className={`px-6 py-3 font-medium text-sm transition-all duration-200 border-b-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${index === activeTab
+                                ? 'text-blue-600 border-blue-600'
+                                : 'text-gray-600 border-transparent hover:text-gray-900 hover:border-gray-300'
+                            }`}
+                        onClick={() => handleTabClick(index)}
                         onKeyDown={handleKeyDown}
-                        role='tab'
-                        aria-selected={index === activeTab ? 'true'  : 'false'}
-                        tabIndex={index === activeIndex ? 0 : -1}
-                    >{items.lable}</button>
+                        role="tab"
+                        aria-selected={index === activeTab}
+                        tabIndex={index === activeTab ? 0 : -1}
+                    >
+                        {item.label}
+                    </button>
                 ))}
             </div>
-            <div className='tab-panel' role='tabpanel'>
+            <div className="mt-6" role="tabpanel">
                 {items[activeTab].content}
             </div>
         </div>
-    )
+    );
 }
 
 export default Tabs;
