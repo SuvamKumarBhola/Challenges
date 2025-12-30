@@ -8,6 +8,7 @@ import './App.css'
 // import SearchBar from "./Components/Challenge7/SearchBar"
 // import Modal from "./Components/Challenge8/Modal"
 // import SettingSection from "./Components/Challenge9/SettingSection"
+import ThemeToggle from './Components/Challenge10/ThemeToggle'
 
 
 
@@ -51,6 +52,9 @@ function App() {
           <ProfileSection/>
         </main>
       </div> */}
+
+      {/* Challenge_10 : ToggleTheme */}
+      <ThemeToggle/>
 
     </>
   )
