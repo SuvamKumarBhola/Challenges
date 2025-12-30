@@ -125,6 +125,15 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Toggle Theme
+**Concepts practiced:**
+- Controlled components
+- Global Styles
+- Custom Hooks
+- Systme preference detection
+
+---
+
 ### 🔹 Tabs
 **Concepts practiced:**
 - Controlled components
