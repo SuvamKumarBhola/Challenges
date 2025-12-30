@@ -1,12 +1,14 @@
+import './App.css'
 // import DynamicList from "./Components/Challenge1/DynamicList"
 // import Alert from "./Components/Challenge2/Alert"
 // import LiveChCounter from "./Components/Challenge3/LiveChCounter"
 // import MultistepForm from "./Components/Challenge4/MultistepForm"
 // import ApiDataViewer from "./Components/Challenge5/ApiDataViewer"
 // import LoginForm from "./Components/Challenge6/LoginForm"
-import SearchBar from "./Components/Challenge7/SearchBar"
-import Modal from "./Components/Challenge8/Modal"
-import SettingSection from "./Components/Challenge9/SettingSection"
+// import SearchBar from "./Components/Challenge7/SearchBar"
+// import Modal from "./Components/Challenge8/Modal"
+// import SettingSection from "./Components/Challenge9/SettingSection"
+
 
 
 function App() {
@@ -41,14 +43,14 @@ function App() {
       </Modal> */}
 
       {/* Challenge_9 : Tabs */}
-      <div className="tabs-container">
+      {/* <div className="tabs-container">
         <header><h1>My DashBoards</h1></header>
         <main>
           <SettingSection />
           <hr />
-          {/* <ProfileSection/> */}
+          <ProfileSection/>
         </main>
-      </div>
+      </div> */}
 
     </>
   )
