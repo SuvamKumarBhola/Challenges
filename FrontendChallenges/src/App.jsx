@@ -54,7 +54,15 @@ function App() {
       </div> */}
 
       {/* Challenge_10 : ToggleTheme */}
-      <ThemeToggle/>
+      {/* <ThemeToggle/> */}
+
+      {/* Challenge_11 : GlobalContext */}
+      <ThemeProvider>
+        <div className="app-container">
+          <Header />
+          <PageContent />
+        </div>
+      </ThemeProvider>
 
     </>
   )
