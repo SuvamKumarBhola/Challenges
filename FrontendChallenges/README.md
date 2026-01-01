@@ -143,6 +143,14 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Global Context
+**Concepts practiced:**
+- Controlled components
+- useMemo Optimization
+- Encapsulation
+- Custom Hooks: ThemeContext
+
+---
 
 ## 📁 Structure
 ```text
