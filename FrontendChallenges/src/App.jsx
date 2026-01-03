@@ -1,4 +1,5 @@
 import './App.css'
+import Accordion from './Components/Challenge12/Accordian'
 // import DynamicList from "./Components/Challenge1/DynamicList"
 // import Alert from "./Components/Challenge2/Alert"
 // import LiveChCounter from "./Components/Challenge3/LiveChCounter"
@@ -8,7 +9,7 @@ import './App.css'
 // import SearchBar from "./Components/Challenge7/SearchBar"
 // import Modal from "./Components/Challenge8/Modal"
 // import SettingSection from "./Components/Challenge9/SettingSection"
-import ThemeToggle from './Components/Challenge10/ThemeToggle'
+// import ThemeToggle from './Components/Challenge10/ThemeToggle'
 
 
 
@@ -57,12 +58,42 @@ function App() {
       {/* <ThemeToggle/> */}
 
       {/* Challenge_11 : GlobalContext */}
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <div className="app-container">
           <Header />
           <PageContent />
         </div>
-      </ThemeProvider>
+      </ThemeProvider> */}
+
+      {/* Challenge_12 : Accordion */}
+      <div style={{ maxWidth: '600px', margin: '50px auto' }}>
+        <h1>Compound Component Pattern</h1>
+
+        <Accordion>
+
+          <Accordion.Item index={1}>
+            <Accordion.Title>
+              What is React?
+            </Accordion.Title>
+            <Accordion.Content>
+              <p>React is a JavaScript library for building user interfaces.</p>
+            </Accordion.Content>
+          </Accordion.Item>
+
+          <Accordion.Item index={2}>
+            <Accordion.Title>
+              <span role="img" aria-label="fire">🔥</span> Why use Components?
+            </Accordion.Title>
+            <Accordion.Content>
+              <form>
+                <label>It makes code reusable!</label>
+                <input type="text" placeholder="Agree?" />
+              </form>
+            </Accordion.Content>
+          </Accordion.Item>
+
+        </Accordion>
+      </div>
 
     </>
   )
