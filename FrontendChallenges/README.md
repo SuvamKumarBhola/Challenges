@@ -152,6 +152,14 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Accordian
+**Concepts practiced:**
+- Controlled components
+- Flexible API
+- Namespace Pattern
+
+---
+
 ## 📁 Structure
 ```text
 FrontendChallenges/
