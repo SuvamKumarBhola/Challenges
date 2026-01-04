@@ -160,6 +160,14 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 ToastManager
+**Concepts practiced:**
+- Controlled components
+- Dynamic Lists
+- Memory Leak Prevention
+
+---
+
 ## 📁 Structure
 ```text
 FrontendChallenges/
