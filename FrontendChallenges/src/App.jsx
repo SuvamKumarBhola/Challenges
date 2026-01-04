@@ -66,7 +66,7 @@ function App() {
       </ThemeProvider> */}
 
       {/* Challenge_12 : Accordion */}
-      <div style={{ maxWidth: '600px', margin: '50px auto' }}>
+      {/* <div style={{ maxWidth: '600px', margin: '50px auto' }}>
         <h1>Compound Component Pattern</h1>
 
         <Accordion>
@@ -93,7 +93,9 @@ function App() {
           </Accordion.Item>
 
         </Accordion>
-      </div>
+      </div> */}
+
+      
 
     </>
   )
