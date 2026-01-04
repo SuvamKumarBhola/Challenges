@@ -1,5 +1,4 @@
 import './App.css'
-import Accordion from './Components/Challenge12/Accordian'
 // import DynamicList from "./Components/Challenge1/DynamicList"
 // import Alert from "./Components/Challenge2/Alert"
 // import LiveChCounter from "./Components/Challenge3/LiveChCounter"
@@ -10,6 +9,10 @@ import Accordion from './Components/Challenge12/Accordian'
 // import Modal from "./Components/Challenge8/Modal"
 // import SettingSection from "./Components/Challenge9/SettingSection"
 // import ThemeToggle from './Components/Challenge10/ThemeToggle'
+// import Header from './Components/Challenge11/Header'
+// import Accordion from './Components/Challenge12/Accordian'
+import { ToastProvider } from './ToastContext';
+import SettingsPanel from './DeeplyNestedComponent';
 
 
 
@@ -95,7 +98,15 @@ function App() {
         </Accordion>
       </div> */}
 
-      
+      {/* Challenge_13: ToastManager */}
+      <ToastProvider>
+        <div className="App">
+          <h1>React Portal Demo</h1>
+          <div style={{ overflow: 'hidden', height: '100px', border: '2px dashed red' }}>
+            <SettingsPanel />
+          </div>
+        </div>
+      </ToastProvider>
 
     </>
   )
