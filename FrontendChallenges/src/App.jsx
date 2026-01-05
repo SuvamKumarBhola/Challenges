@@ -111,6 +111,11 @@ function App() {
         </div>
       </ToastProvider> */}
 
+      {/* challenge_14: RBAC */}
+      <AuthProvider>
+        <AppContent />
+      </AuthProvider>
+
     </>
   )
 }
