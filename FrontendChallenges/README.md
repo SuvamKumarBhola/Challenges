@@ -168,6 +168,15 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 RBAC
+**Concepts practiced:**
+- Controlled components
+- Prop Forwarding
+- Custom Hooks
+- Static Composition
+
+---
+
 ## 📁 Structure
 ```text
 FrontendChallenges/
