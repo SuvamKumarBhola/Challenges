@@ -11,8 +11,11 @@ import './App.css'
 // import ThemeToggle from './Components/Challenge10/ThemeToggle'
 // import Header from './Components/Challenge11/Header'
 // import Accordion from './Components/Challenge12/Accordian'
-import { ToastProvider } from './ToastContext';
-import SettingsPanel from './DeeplyNestedComponent';
+// import { ToastProvider } from './ToastContext';
+// import SettingsPanel from './DeeplyNestedComponent';
+import AppContent from './Components/Challenge14/AppContent'
+import { AuthProvider } from './Components/Challenge14/AuthContext'
+
 
 
 
@@ -99,14 +102,14 @@ function App() {
       </div> */}
 
       {/* Challenge_13: ToastManager */}
-      <ToastProvider>
+      {/* <ToastProvider>
         <div className="App">
           <h1>React Portal Demo</h1>
           <div style={{ overflow: 'hidden', height: '100px', border: '2px dashed red' }}>
             <SettingsPanel />
           </div>
         </div>
-      </ToastProvider>
+      </ToastProvider> */}
 
     </>
   )
