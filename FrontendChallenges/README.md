@@ -174,6 +174,14 @@ Each challenge is intentionally small but conceptually strong.
 - Prop Forwarding
 - Custom Hooks
 - Static Composition
+---
+
+### 🔹 CrashProof
+**Concepts practiced:**
+- Controlled components
+- Fault Isolation
+- The Class Component Necessity
+- Production Logging
 
 ---
 
