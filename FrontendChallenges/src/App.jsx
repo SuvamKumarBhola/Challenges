@@ -13,11 +13,10 @@ import './App.css'
 // import Accordion from './Components/Challenge12/Accordian'
 // import { ToastProvider } from './ToastContext';
 // import SettingsPanel from './DeeplyNestedComponent';
-import AppContent from './Components/Challenge14/AppContent'
-import { AuthProvider } from './Components/Challenge14/AuthContext'
-
-
-
+// import AppContent from './Components/Challenge14/AppContent'
+// import { AuthProvider } from './Components/Challenge14/AuthContext'
+import BuggyWidget from './Components/Challenge15/BuggyWidget'
+import ErrorBoundary from './Components/Challenge15/ErrorBoundary'
 
 function App() {
 
@@ -112,10 +111,17 @@ function App() {
       </ToastProvider> */}
 
       {/* challenge_14: RBAC */}
-      <AuthProvider>
+      {/* <AuthProvider>
         <AppContent />
-      </AuthProvider>
+      </AuthProvider> */}
+      {/* Challenge_15: CrashProof */}
+      <ErrorBoundary>
+        <BuggyWidget title="Stock Ticker" />
+      </ErrorBoundary>
 
+      <ErrorBoundary>
+        <BuggyWidget title="News Feed" />
+      </ErrorBoundary>
     </>
   )
 }
