@@ -185,6 +185,15 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Poor Man's Redux
+**Concepts practiced:**
+- Controlled components
+- Predictable State Updates
+- Scalablity improved
+- Performance Optimization
+
+---
+
 ## 📁 Structure
 ```text
 FrontendChallenges/
