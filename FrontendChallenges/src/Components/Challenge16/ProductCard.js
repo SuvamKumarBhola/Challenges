@@ -11,10 +11,15 @@ const ProductCard = ({ product }) => {
     };
 
     return (
-        <div style={{ border: '1px solid #ddd', padding: '10px', width: '200px' }}>
-            <h3>{product.name}</h3>
-            <p>${product.price}</p>
-            <button onClick={handleAdd}>Add to Cart</button>
+        <div className="border border-slate-700 rounded-lg p-5 w-56 bg-slate-800 shadow-md hover:shadow-xl transition-shadow duration-300">
+            <h3 className="text-lg font-semibold text-white mb-2">{product.name}</h3>
+            <p className="text-slate-300 text-xl font-bold mb-4">${product.price}</p>
+            <button
+                onClick={handleAdd}
+                className="w-full py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded transition-colors duration-200"
+            >
+                Add to Cart
+            </button>
         </div>
     );
 };
