@@ -20,6 +20,12 @@ import ErrorBoundary from './Components/Challenge15/ErrorBoundary'
 
 function App() {
 
+  const products = [
+    { id: 1, name: 'Laptop', price: 1000 },
+    { id: 2, name: 'Headphones', price: 200 },
+    { id: 3, name: 'Keyboard', price: 150 },
+  ];
+
   return (
     <>
       {/* Challenge_1 : Dynamic List Manager */}
@@ -114,14 +120,25 @@ function App() {
       {/* <AuthProvider>
         <AppContent />
       </AuthProvider> */}
+
       {/* Challenge_15: CrashProof */}
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <BuggyWidget title="Stock Ticker" />
       </ErrorBoundary>
 
       <ErrorBoundary>
         <BuggyWidget title="News Feed" />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
+
+      {/* Challenge_16: Poor man's Redux */}
+      <StoreProvider>
+        <Navbar />
+        <div style={{ padding: '20px', display: 'flex', gap: '20px' }}>
+          {products.map(p => (
+            <ProductCard key={p.id} product={p} />
+          ))}
+        </div>
+      </StoreProvider>
     </>
   )
 }
