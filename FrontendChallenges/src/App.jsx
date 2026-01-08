@@ -15,8 +15,10 @@ import './App.css'
 // import SettingsPanel from './DeeplyNestedComponent';
 // import AppContent from './Components/Challenge14/AppContent'
 // import { AuthProvider } from './Components/Challenge14/AuthContext'
-import BuggyWidget from './Components/Challenge15/BuggyWidget'
-import ErrorBoundary from './Components/Challenge15/ErrorBoundary'
+// import BuggyWidget from './Components/Challenge15/BuggyWidget'
+// import ErrorBoundary from './Components/Challenge15/ErrorBoundary'
+import UserProfile from './Components/Challenge16/UserProfile'
+
 
 function App() {
 
@@ -131,14 +133,44 @@ function App() {
       </ErrorBoundary> */}
 
       {/* Challenge_16: Poor man's Redux */}
-      <StoreProvider>
+      {/* <StoreProvider>
         <Navbar />
         <div style={{ padding: '20px', display: 'flex', gap: '20px' }}>
           {products.map(p => (
             <ProductCard key={p.id} product={p} />
           ))}
         </div>
-      </StoreProvider>
+      </StoreProvider> */}
+
+      {/* Challenge_17: Smart Data Fetcher */}
+      <div style={{ maxWidth: '500px', margin: '50px auto' }}>
+        <h1>Mini React Query</h1>
+
+        <div style={{ marginBottom: '20px', display: 'flex', gap: '10px' }}>
+          <button onClick={() => setCurrentId(1)}>Load User 1</button>
+          <button onClick={() => setCurrentId(2)}>Load User 2</button>
+          <button onClick={() => setCurrentId(3)}>Load User 3</button>
+          <button onClick={() => setShowProfile(!showProfile)}>
+            {showProfile ? 'Unmount Component' : 'Mount Component'}
+          </button>
+        </div>
+
+        <div style={{ minHeight: '200px' }}>
+          {showProfile && <UserProfile userId={currentId} />}
+        </div>
+
+        <div style={{ marginTop: '20px', fontSize: '0.9em', color: '#555' }}>
+          <strong>Instructions:</strong>
+          <ol>
+            <li>Click "User 1". Wait for load.</li>
+            <li>Click "User 2". Wait for load.</li>
+            <li>Click "User 1" again. <strong>Notice it's instant? (Cache)</strong></li>
+            <li>Click "User 3" then IMMEDIATELY click "User 2".</li>
+            <li>Check Console. You will see <strong>"Request cancelled"</strong>.</li>
+          </ol>
+        </div>
+      </div>
+
     </>
   )
 }
