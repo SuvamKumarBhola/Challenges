@@ -22,11 +22,13 @@ import UserProfile from './Components/Challenge16/UserProfile'
 
 function App() {
 
-  const products = [
-    { id: 1, name: 'Laptop', price: 1000 },
-    { id: 2, name: 'Headphones', price: 200 },
-    { id: 3, name: 'Keyboard', price: 150 },
-  ];
+  // const products = [
+  //   { id: 1, name: 'Laptop', price: 1000 },
+  //   { id: 2, name: 'Headphones', price: 200 },
+  //   { id: 3, name: 'Keyboard', price: 150 },
+  // ];
+  const [currentId, setCurrentId] = useState(1);
+  const [showProfile, setShowProfile] = useState(true);
 
   return (
     <>

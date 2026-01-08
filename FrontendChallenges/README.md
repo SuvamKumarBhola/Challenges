@@ -194,6 +194,15 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Smart Data Fetcher
+**Concepts practiced:**
+- Controlled components
+- Race Conditions
+- Singleton Cache
+- Strict Mode Compliance
+
+---
+
 ## 📁 Structure
 ```text
 FrontendChallenges/
