@@ -1,7 +1,5 @@
-import React from 'react';
 import useForm from './useForm';
 import validate from './validate';
-import './Form.css'; 
 
 const SignupForm = () => {
     const submitForm = (formValues, onComplete) => {
