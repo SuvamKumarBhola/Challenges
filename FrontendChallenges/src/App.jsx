@@ -17,7 +17,8 @@ import './App.css'
 // import { AuthProvider } from './Components/Challenge14/AuthContext'
 // import BuggyWidget from './Components/Challenge15/BuggyWidget'
 // import ErrorBoundary from './Components/Challenge15/ErrorBoundary'
-import UserProfile from './Components/Challenge16/UserProfile'
+// import UserProfile from './Components/Challenge16/UserProfile'
+import SignupForm from './Components/Challenge18/SignupForm'
 
 
 function App() {
@@ -27,8 +28,8 @@ function App() {
   //   { id: 2, name: 'Headphones', price: 200 },
   //   { id: 3, name: 'Keyboard', price: 150 },
   // ];
-  const [currentId, setCurrentId] = useState(1);
-  const [showProfile, setShowProfile] = useState(true);
+  // const [currentId, setCurrentId] = useState(1);
+  // const [showProfile, setShowProfile] = useState(true);
 
   return (
     <>
@@ -145,7 +146,7 @@ function App() {
       </StoreProvider> */}
 
       {/* Challenge_17: Smart Data Fetcher */}
-      <div style={{ maxWidth: '500px', margin: '50px auto' }}>
+      {/* <div style={{ maxWidth: '500px', margin: '50px auto' }}>
         <h1>Mini React Query</h1>
 
         <div style={{ marginBottom: '20px', display: 'flex', gap: '10px' }}>
@@ -171,7 +172,10 @@ function App() {
             <li>Check Console. You will see <strong>"Request cancelled"</strong>.</li>
           </ol>
         </div>
-      </div>
+      </div> */}
+
+      {/* Challenge_18: Self Validating Form */}
+      <SignupForm />
 
     </>
   )
