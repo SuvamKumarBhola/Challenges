@@ -203,6 +203,14 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Slef Validating Form
+**Concepts practiced:**
+- Controlled components
+- Inversion Controll
+- Comouted Property names 
+
+---
+
 ## 📁 Structure
 ```text
 FrontendChallenges/
