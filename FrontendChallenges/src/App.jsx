@@ -1,4 +1,5 @@
 import './App.css'
+import { Routes, Route, Link } from 'react-router-dom';
 // import DynamicList from "./Components/Challenge1/DynamicList"
 // import Alert from "./Components/Challenge2/Alert"
 // import LiveChCounter from "./Components/Challenge3/LiveChCounter"
@@ -19,6 +20,9 @@ import './App.css'
 // import ErrorBoundary from './Components/Challenge15/ErrorBoundary'
 // import UserProfile from './Components/Challenge16/UserProfile'
 // import SignupForm from './Components/Challenge18/SignupForm'
+import { AuthProvider } from './AuthContext';
+import ProtectedRoute from './ProtectedRoute';
+import LoginPage from './LoginPage'
 
 function App() {
 
@@ -29,6 +33,10 @@ function App() {
   // ];
   // const [currentId, setCurrentId] = useState(1);
   // const [showProfile, setShowProfile] = useState(true);
+  
+  const PublicPage = () => <h3>Public Page (Anyone can see this)</h3>;
+  const Dashboard = () => <h3>Dashboard (Protected)</h3>;
+  const Settings = () => <h3>User Settings (Protected)</h3>;
 
   return (
     <>
@@ -176,8 +184,25 @@ function App() {
       {/* Challenge_18: Self Validating Form */}
       {/* <SignupForm /> */}
 
-
-
+      {/* Challenge_19: Smart Redirect */}
+      <AuthProvider>
+        <div style={{ padding: '20px' }}>
+          <AuthStatus />
+          <nav style={{ marginBottom: '20px', borderBottom: '1px solid #ccc', paddingBottom: '10px' }}>
+            <Link to="/" style={{ marginRight: '10px' }}>Public Page</Link>
+            <Link to="/dashboard" style={{ marginRight: '10px' }}>Dashboard</Link>
+            <Link to="/settings">Settings</Link>
+          </nav>
+          <Routes>
+            <Route path="/" element={<PublicPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route element={<ProtectedRoute />}>
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/settings" element={<Settings />} />
+            </Route>
+          </Routes>
+        </div>
+      </AuthProvider>
     </>
   )
 }
