@@ -203,7 +203,7 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
-### 🔹 Slef Validating Form
+### 🔹 Self Validating Form
 **Concepts practiced:**
 - Controlled components
 - Inversion Controll
