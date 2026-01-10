@@ -18,8 +18,7 @@ import './App.css'
 // import BuggyWidget from './Components/Challenge15/BuggyWidget'
 // import ErrorBoundary from './Components/Challenge15/ErrorBoundary'
 // import UserProfile from './Components/Challenge16/UserProfile'
-import SignupForm from './Components/Challenge18/SignupForm'
-
+// import SignupForm from './Components/Challenge18/SignupForm'
 
 function App() {
 
@@ -175,7 +174,9 @@ function App() {
       </div> */}
 
       {/* Challenge_18: Self Validating Form */}
-      <SignupForm />
+      {/* <SignupForm /> */}
+
+
 
     </>
   )
