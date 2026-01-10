@@ -211,6 +211,14 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Smart Redirect
+**Concepts practiced:**
+- Controlled components
+- State in Navigation
+- Composition over Configuration
+
+---
+
 ## 📁 Structure
 ```text
 FrontendChallenges/
