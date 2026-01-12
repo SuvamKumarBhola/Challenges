@@ -219,6 +219,15 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Notes 
+**Concepts practiced:**
+- Controlled components
+- State is not a Snapshot
+- Clearing Logic
+- Memory Management
+
+---
+
 ## 📁 Structure
 ```text
 FrontendChallenges/
