@@ -20,9 +20,10 @@ import { Routes, Route, Link } from 'react-router-dom';
 // import ErrorBoundary from './Components/Challenge15/ErrorBoundary'
 // import UserProfile from './Components/Challenge16/UserProfile'
 // import SignupForm from './Components/Challenge18/SignupForm'
-import { AuthProvider } from './AuthContext';
-import ProtectedRoute from './ProtectedRoute';
-import LoginPage from './LoginPage'
+// import { AuthProvider } from './AuthContext';
+// import ProtectedRoute from './ProtectedRoute';
+// import LoginPage from './LoginPage'
+import TextEditor from './Components/Challenge20/TextEditor';
 
 function App() {
 
@@ -34,9 +35,9 @@ function App() {
   // const [currentId, setCurrentId] = useState(1);
   // const [showProfile, setShowProfile] = useState(true);
   
-  const PublicPage = () => <h3>Public Page (Anyone can see this)</h3>;
-  const Dashboard = () => <h3>Dashboard (Protected)</h3>;
-  const Settings = () => <h3>User Settings (Protected)</h3>;
+  // const PublicPage = () => <h3>Public Page (Anyone can see this)</h3>;
+  // const Dashboard = () => <h3>Dashboard (Protected)</h3>;
+  // const Settings = () => <h3>User Settings (Protected)</h3>;
 
   return (
     <>
@@ -185,7 +186,7 @@ function App() {
       {/* <SignupForm /> */}
 
       {/* Challenge_19: Smart Redirect */}
-      <AuthProvider>
+      {/* <AuthProvider>
         <div style={{ padding: '20px' }}>
           <AuthStatus />
           <nav style={{ marginBottom: '20px', borderBottom: '1px solid #ccc', paddingBottom: '10px' }}>
@@ -202,7 +203,10 @@ function App() {
             </Route>
           </Routes>
         </div>
-      </AuthProvider>
+      </AuthProvider> */}
+
+      {/* Challenge_20 */}
+      <TextEditor/>
     </>
   )
 }
