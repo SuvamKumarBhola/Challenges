@@ -228,6 +228,14 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Notes 
+**Concepts practiced:**
+- Controlled components
+- Strict DOM Cleanup
+- Shift + Tab management
+
+---
+
 ## 📁 Structure
 ```text
 FrontendChallenges/
