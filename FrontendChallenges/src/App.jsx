@@ -23,7 +23,8 @@ import { Routes, Route, Link } from 'react-router-dom';
 // import { AuthProvider } from './AuthContext';
 // import ProtectedRoute from './ProtectedRoute';
 // import LoginPage from './LoginPage'
-import TextEditor from './Components/Challenge20/TextEditor';
+// import TextEditor from './Components/Challenge20/TextEditor';
+import Trap from './Components/Challenge21/Trap';
 
 function App() {
 
@@ -205,8 +206,11 @@ function App() {
         </div>
       </AuthProvider> */}
 
-      {/* Challenge_20 */}
-      <TextEditor/>
+      {/* Challenge_20: Text Editor */}
+      {/* <TextEditor/> */}
+
+      {/* Challenge_21: Focus trap */}
+      <Trap/>
     </>
   )
 }
