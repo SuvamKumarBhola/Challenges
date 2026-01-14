@@ -210,7 +210,10 @@ function App() {
       {/* <TextEditor/> */}
 
       {/* Challenge_21: Focus trap */}
-      <Trap/>
+      {/* <Trap/> */}
+
+      {/* Challenge_22: Fluid Search */}
+      <search />
     </>
   )
 }
