@@ -236,6 +236,14 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Fluid Search
+**Concepts practiced:**
+- Controlled components
+- useDeffered 
+- UX Prioritization 
+
+---
+
 ## 📁 Structure
 ```text
 FrontendChallenges/
