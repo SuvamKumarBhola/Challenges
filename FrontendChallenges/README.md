@@ -244,6 +244,14 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 Silent Refreash
+**Concepts practiced:**
+- Controlled components
+- Concurrency Handling
+- Decoupling Logic
+
+---
+
 ## 📁 Structure
 ```text
 FrontendChallenges/
