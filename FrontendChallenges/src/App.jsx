@@ -25,7 +25,8 @@ import { Routes, Route, Link } from 'react-router-dom';
 // import LoginPage from './LoginPage'
 // import TextEditor from './Components/Challenge20/TextEditor';
 // import Trap from './Components/Challenge21/Trap';
-import Mock from './Components/Challenge23/Mock';
+// import Mock from './Components/Challenge23/Mock';
+import FileExplorer from './Components/Challenge24/FileExplorer';
 
 function App() {
 
@@ -217,8 +218,10 @@ function App() {
       {/* <search /> */}
 
       {/* Challenge_23: Silent Refresh */}
-      <Mock/>
+      {/* <Mock/> */}
 
+      {/* Challenge_24: infinite File Explorer */}
+      <FileExplorer/>
     </>
   )
 }
