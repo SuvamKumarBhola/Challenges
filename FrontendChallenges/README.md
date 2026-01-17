@@ -252,6 +252,14 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
+### 🔹 infinite File Explorer
+**Concepts practiced:**
+- Controlled components
+- State Isolation
+- performance Warning
+
+---
+
 ## 📁 Structure
 ```text
 FrontendChallenges/
