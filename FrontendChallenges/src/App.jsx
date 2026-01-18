@@ -26,7 +26,8 @@ import { Routes, Route, Link } from 'react-router-dom';
 // import TextEditor from './Components/Challenge20/TextEditor';
 // import Trap from './Components/Challenge21/Trap';
 // import Mock from './Components/Challenge23/Mock';
-import FileExplorer from './Components/Challenge24/FileExplorer';
+// import FileExplorer from './Components/Challenge24/FileExplorer';
+import Finder from './Components/Challenge25/Finder';
 
 function App() {
 
@@ -221,7 +222,10 @@ function App() {
       {/* <Mock/> */}
 
       {/* Challenge_24: infinite File Explorer */}
-      <FileExplorer/>
+      {/* <FileExplorer/> */}
+
+      {/* Challenge_25: Prime Finder */}
+      <Finder />
     </>
   )
 }
