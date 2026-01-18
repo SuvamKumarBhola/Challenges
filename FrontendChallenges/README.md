@@ -252,11 +252,19 @@ Each challenge is intentionally small but conceptually strong.
 
 ---
 
-### 🔹 infinite File Explorer
+### 🔹 Infinite File Explorer
 **Concepts practiced:**
 - Controlled components
 - State Isolation
 - performance Warning
+
+---
+
+### 🔹 Prime Finder
+**Concepts practiced:**
+- Controlled components
+- Concurrent UI Updates
+- Performance Optimization
 
 ---
 
