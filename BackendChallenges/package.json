@@ -1,0 +1,13 @@
+{
+  "name": "backendchallenges",
+  "version": "1.0.0",
+  "description": "We will focus on Node.js/Express (aligned with your MERN interest) but elevate it to Enterprise Standards. We will move away from \"tutorials\" and towards \"production patterns\" like Layered Architecture, Validation Pipelines, and Scalability.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
